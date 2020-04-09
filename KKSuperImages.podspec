@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKSuperImages'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KKSuperImages.'
+  s.summary          = 'A convenience Cocoapod that extends UIImageView swift class.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  "Provides an convenience method to create rouded image with border."
                        DESC
 
-  s.homepage         = 'https://github.com/karthikeyang36@gmail.com/KKSuperImages'
+  s.homepage         = 'https://github.com/karthikgs7/KKSuperImages'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'karthikeyang36@gmail.com' => 'karthikeyan.ganesan@matchmove.com' }
-  s.source           = { :git => 'https://github.com/karthikeyang36@gmail.com/KKSuperImages.git', :tag => s.version.to_s }
+  s.author           = { 'karthikeyang' => 'karthikeyang36@gmail.com' }
+  s.source           = { :git => 'https://github.com/karthikgs7/KKSuperImages.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KKSuperImages/Classes/**/*'
+  s.source_files = 'KKSuperImages/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'KKSuperImages' => ['KKSuperImages/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_versions = '5'
 end

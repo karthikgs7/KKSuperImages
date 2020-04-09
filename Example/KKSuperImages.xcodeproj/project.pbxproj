@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		006EBD8EFFC4221E31F01C95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		251866326929676331EE98CB /* Pods-KKSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKSuperImages_Example.release.xcconfig"; path = "Target Support Files/Pods-KKSuperImages_Example/Pods-KKSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4861B283A343B401458F2680 /* KKSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKSuperImages.podspec; path = ../KKSuperImages.podspec; sourceTree = "<group>"; };
+		4861B283A343B401458F2680 /* KKSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKSuperImages.podspec; path = ../KKSuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D47CC9A2EFDEFDE8E129CC9 /* Pods-KKSuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKSuperImages_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKSuperImages_Tests/Pods-KKSuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KKSuperImages_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKSuperImages_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

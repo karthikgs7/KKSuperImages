@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A567BEE79CE062BB58A047DCC123C22 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F778D88272A411F7AB009278AB513AB5 /* ReplaceMe.swift */; };
 		1F46A80941C5A4C5E2D25FFD22146938 /* KKSuperImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44BEF4136782A15B76368C44E45A94 /* KKSuperImages-dummy.m */; };
+		2AF3768F243F857600082B2B /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF3768E243F857600082B2B /* UIImageView+Extensions.swift */; };
 		3DA976138840CEE1364553D6876EA080 /* Pods-KKSuperImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9587E0243D84A8A3A8D5EB4535ED0ADE /* Pods-KKSuperImages_Example-dummy.m */; };
 		4238F55DB37233B3748863AE90C35C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		45B4E0EE859A106D8439C3514CE5B968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,6 +41,7 @@
 		0E91A7A8EECC05B6625F894113389FB6 /* Pods-KKSuperImages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKSuperImages_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0FFBCC98BB2312E758CB2E7AE41EBC33 /* Pods-KKSuperImages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKSuperImages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		231F2A05C01C639FDE99D7A87F118EEF /* Pods-KKSuperImages_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKSuperImages_Example-Info.plist"; sourceTree = "<group>"; };
+		2AF3768E243F857600082B2B /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extensions.swift"; path = "KKSuperImages/Classes/UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45FDB7C2D3EDC42A83073AF0A20FA18D /* Pods-KKSuperImages_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKSuperImages_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C44BEF4136782A15B76368C44E45A94 /* KKSuperImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKSuperImages-dummy.m"; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		EA144AE6211C468EB9E707189338E0FD /* KKSuperImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKSuperImages.modulemap; sourceTree = "<group>"; };
 		ED5423B511A9B820DE5E65FAD9DD0804 /* Pods_KKSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C97833CF0A936E217448D4B615EA46 /* KKSuperImages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKSuperImages-Info.plist"; sourceTree = "<group>"; };
-		F778D88272A411F7AB009278AB513AB5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KKSuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FA392C844658AB7630E81229945B7950 /* KKSuperImages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKSuperImages-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,9 +112,9 @@
 		27FEF13E6FED1D8FBA801D79C51877E9 /* KKSuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				F778D88272A411F7AB009278AB513AB5 /* ReplaceMe.swift */,
 				094746F7F163BE336FE01A1B68B8B5B8 /* Pod */,
 				32618F8BB8DDA1291A86351FE431865D /* Support Files */,
+				2AF3768E243F857600082B2B /* UIImageView+Extensions.swift */,
 			);
 			name = KKSuperImages;
 			path = ../..;
@@ -370,8 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF3768F243F857600082B2B /* UIImageView+Extensions.swift in Sources */,
 				1F46A80941C5A4C5E2D25FFD22146938 /* KKSuperImages-dummy.m in Sources */,
-				1A567BEE79CE062BB58A047DCC123C22 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EA8D094536B03C1C13DD415AFD492C2 /* KKSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,6 +467,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -634,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EA8D094536B03C1C13DD415AFD492C2 /* KKSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
