@@ -22,7 +22,7 @@ pod 'KKSuperImages'
 
 ## Author
 
-karthikeyang36@gmail.com
+karthikeyan.g
 
 ## License
 
