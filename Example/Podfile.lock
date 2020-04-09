@@ -1,0 +1,16 @@
+PODS:
+  - KKSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - KKSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  KKSuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKSuperImages: 3d27e15b4d276f3380408f5fc062002f3b876dd2
+
+PODFILE CHECKSUM: f70fe215df74744066a721dffdb1aaedf0766612
+
+COCOAPODS: 1.8.4
